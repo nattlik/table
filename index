@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table with Visible Borders</title>
+    <style>
+        /* Style the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        /* Style the table header */
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Style the table cells */
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+<thead>
+<tr>
+    <th>Cat breed</th>
+    <th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Superhero cat</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>MegaGala Cat</td>
+    <td>2</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+    <td colspan="2">Total: 5 puurfect cats</td>
+</tr>
+</tfoot>
+</table>
+
+</body>
+</html>
